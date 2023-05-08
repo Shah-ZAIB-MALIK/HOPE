@@ -17,8 +17,6 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python trt.py')
 	
-print('[•] Join Our Group')
-os.system('xdg-open https://facebook.com/groups/1267077887495034/')
 
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Shah-ZAIB-MALIK/HOPE/main/proxies.txt').text
@@ -161,10 +159,10 @@ logo=("""\033[1;91m
          \033[1;97m   888     888  T88b     888     
           \033[1;97m  888     888   T88b    888\033[1;32m       XD
 \033[1;37m--------------------------------------------------
-[~] Author   : Ramzan Tanha
-[~] Facebook : Muhammad Adnan
+[~] Author   : Shahzaib Malik
+[~] Facebook : Shahzaib Malik
 [~] Tool     : Paid
-[~] Version  : 30.0
+[~] Version  : 7
 \033[1;37m----------------------------------------------""")
 def linex():
 	print('\033[1;37m----------------------------------------------')
@@ -716,7 +714,7 @@ def api3(ids,names,passlist):
         except Exception as e:
                 pass
 #b-api method
-#method3                
+#method4                
 def api4(ids,names,passlist):
         try:
                 global ok,loop,sim_id
