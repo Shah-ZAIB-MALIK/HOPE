@@ -21,7 +21,7 @@ print('[•] Join Our Group')
 os.system('xdg-open https://facebook.com/groups/1267077887495034/')
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/Shah-ZAIB-MALIK/HOPE/main/proxies.txt').text
 	open('proxies.txt','w').write(proxies)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -31,14 +31,14 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+	xx = requests.get('https://raw.githubusercontent.com/Shah-ZAIB-MALIK/HOPE/main/strings.txt').text.splitlines()
 	for line in xx:
 		android_models.append(line)
 except:pass
 
 usr=[]
 try:
-	xd=requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/ua.txt').text.splitlines()
+	xd=requests.get('https://raw.githubusercontent.com/Shah-ZAIB-MALIK/HOPE/main/ua.txt').text.splitlines()
 	for us in xd:
 		usr.append(us)
 except: pass
