@@ -70,9 +70,6 @@ ugen=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
-try: 
-except Exception as e:
-	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[MX')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
